@@ -4,6 +4,9 @@ from unittest import result
 from common import calcula_frequencia, quebra_texto, descobre_tamanho_chave, frequencia_char
 from collections import defaultdict
 
+#Author: Pâmela Mendonça Barreto
+#Github: https://github.com/Aylass/Decifrando-Vigenere
+
 filename="portugues.txt"
 lista_frequencia_por_chave = defaultdict()
 lista_substrings_por_tamanho_chave = defaultdict()
